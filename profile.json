@@ -1,1 +1,53 @@
-{"ucp":{"version":"2026-08-25"},"name":"enoki-research-agent","services":{"dev.ucp.shopping":{"version":"2026-08-25","capabilities":{"dev.ucp.shopping.catalog":{"version":"2026-08-25"},"dev.ucp.shopping.cart":{"version":"2026-08-25"},"dev.ucp.shopping.checkout":{"version":"2026-08-25"},"dev.ucp.shopping.order":{"version":"2026-08-25"}}}}}
+{
+ "ucp": {
+  "version": "2026-08-25",
+  "services": {
+   "dev.ucp.shopping": [
+    {
+     "version": "2026-08-25",
+     "spec": "https://ucp.dev/2026-08-25/specification/overview",
+     "transport": "mcp"
+    }
+   ]
+  },
+  "capabilities": {
+   "dev.ucp.shopping.catalog": [
+    {
+     "version": "2026-08-25"
+    }
+   ],
+   "dev.ucp.shopping.cart": [
+    {
+     "version": "2026-08-25"
+    }
+   ],
+   "dev.ucp.shopping.checkout": [
+    {
+     "version": "2026-08-25"
+    }
+   ],
+   "dev.ucp.shopping.order": [
+    {
+     "version": "2026-08-25"
+    }
+   ],
+   "dev.ucp.shopping.discounts": [
+    {
+     "version": "2026-08-25"
+    }
+   ],
+   "dev.ucp.shopping.fulfillment": [
+    {
+     "version": "2026-08-25"
+    }
+   ],
+   "dev.ucp.shopping.payment": [
+    {
+     "version": "2026-08-25"
+    }
+   ]
+  },
+  "payment_handlers": {}
+ },
+ "name": "enoki-research-agent"
+}
