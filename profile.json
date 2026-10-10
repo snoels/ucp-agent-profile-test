@@ -1,0 +1,1 @@
+{"ucp":{"version":"2026-08-25"},"name":"enoki-research-agent","capabilities":[{"name":"dev.ucp.shopping.catalog","version":"2026-08-25"},{"name":"dev.ucp.shopping.cart","version":"2026-08-25"},{"name":"dev.ucp.shopping.checkout","version":"2026-08-25"},{"name":"dev.ucp.shopping.order","version":"2026-08-25"}]}
